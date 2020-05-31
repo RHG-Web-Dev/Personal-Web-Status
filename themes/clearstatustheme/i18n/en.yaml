@@ -75,9 +75,9 @@
   translation: Back To Event List
 
 - id: notFound
-  translation: We could not find this page.
+  translation: 404 Error: Page Not Found
 - id: notFoundText
-  translation: We may have moved this page to another address or deleted it altogether. Sorry about the trouble!
+  translation: You can always look a bit closer, or just return to the main page.
 
 - id: willBe
   translation: will be
