@@ -39,20 +39,20 @@ okSeverityBackground: "bg-green-dark"
 okSeverityColor: "text-white"
 
 # Incident types
-scheduledHeaderBackground: "bg-blue-lighter"
-scheduledHeaderColor: "text-grey-dark"
+scheduledHeaderBackground: "bg-blue-dark"
+scheduledHeaderColor: "text-blue"
 scheduledHeaderTitleColor: "text-black"
 scheduledBodyBackground: "bg-white"
 scheduledBodyColor: "text-grey-darkest"
 scheduledBodyTitleColor: "text-black"
 
-smallBodyBackground: "bg-white"
+smallBodyBackground: "bg-grey-dark"
 smallBodyColor: "text-grey-darkest"
-smallBodyTitleColor: "text-black"
+smallBodyTitleColor: "text-white"
 
-pastBodyBackground: "bg-white"
+pastBodyBackground: "bg-grey-dark"
 pastBodyColor: "text-grey-darkest"
-pastBodyTitleColor: "text-black"
+pastBodyTitleColor: "text-white"
 
 # Affected components
 affectedBackground: "bg-grey-lighter"
