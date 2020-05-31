@@ -1,63 +1,40 @@
-############################################################
-## Hugo ClearStatus config
-############################################################
-
-# Complete page title
-title: ClearStatus systems status page
-
-# Language config
+title: RHG Systems Status Page
 languageCode: en
-
-############################################################
-## More default config. in /config/_default/config.yml
-############################################################
-
-
-############################################################
-## Status default config. Valid for ALL languages.
-############################################################
-
 params:
+  shortDateFormat: 15:04 — Jan 2
+  meta_description: This status page provides updated information about our
+    systems normal operation, incidents that may happen and their resolution.
   systems:
-    - name: Website
-      description: Our company public facing website
-      link: https://www.example.com/
-    - name: Helpdesk
-      description: Our company customer support site
-      link: https://support.example.com/
-
-  # dateFormat Default: "January 2, 2006 at 3:04 PM"
-  # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: "January 2, 2006 at 3:04 PM"
-  shortDateFormat: "15:04 — Jan 2"
-  # This string will be displayed after each time displayed
-  # Set it for instance to " UTC" to indicate UTC times
-  # or a specific time zone, ie " America/New_York"
-  # You can also instead used a translated string per language
+    - name: API
+      description: The main API for all internal things.
+      link: ""
+    - name: Management
+      description: RHG Management Framework
+      link: ""
+    - name: Little R
+      description: Little R is made to be an awesome discord bot for easy setup.
+        Invite today to enjoy a little buddy next to your server!
+      link: https://littler.tk
+      group: Robots
+    - name: Transistor FM
+      description: Transistor FM is a public Discord music bot, made to mimic a radio
+        station with tons of jingles and with a variety of music, being
+        broadcasted across multiple servers at rapid speeds.
+      link: http://radio.rustyrhuskey.tk/
+      group: Robots
+  dateFormat: January 2, 2006 at 3:04 PM
+  disqusShortname: null
   timezoneString: " UTC"
-
-  # Path to logo image from the /static folder.
-  logo: "/images/clearstatus.svg"
-
-  # favicon
-  icon: "/images/clearstatus.png"
-  iconType: "image/png"
-
-  # Descriptions
-  meta_description: "This status page provides updated information about our systems normal operation, incidents that may happen and their resolution."
-  description_footer: "<a class='text-grey-darkest' title='Visit example.com' href='https://www.example.com/'>Example.com</a> provides open-source software for all kind of sectors."
-  description_header: "Information about <a class='text-grey-darkest' title='Visit example.com' href='https://www.example.com/'>example</a> systems operations.<br />Follow us <a class='text-grey-darkest' title='Visit our page on Twitter' href='https://www.twitter.com/example'>on Twitter</a> or subscribe to <a class='text-grey-darkest' href='%s' >RSS</a><br />to be alerted of new events."
-
-  copyrightHolder: "Example Inc."
-
-  # Disqus commenting per issue: set your Disqus shortname here
-  # Leave empty for no discussion at all.
-  # You can also enable/disable discussions per issue
-  disqusShortname:
-
-  # Layout
-  eventsPerPage: 10
-
-############################################################
-## More default config. in /config/_default/params.yml
-############################################################
+  logo: /images/clearstatus.svg
+  description_header: Information about RHG's systems operations.<br />Follow us
+    <a class='text-grey-darkest' title='Visit my page on Twitter'
+    href='https://www.twitter.com/RHGRDev'>on Twitter</a> or subscribe to the <a
+    class='text-grey-darkest' href='%s' >RSS</a><br /> feed to be alerted of new
+    events.
+  copyrightHolder: RHG
+  eventsPerPage: 25
+  iconType: image/png
+  groups:
+    - Robots
+  icon: /images/clearstatus.png
+  description_footer: RHG Status Page
