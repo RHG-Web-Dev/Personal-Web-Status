@@ -45,6 +45,6 @@ params:
     - Robots
     - API
   icon: /images/logo.png
-  description_footer: <a class='text-grey-darkest' title='Homepage'This page is
-    apart of the href='https://rustyrhuskey.tk'>http://rustyrhuskey.tk</a>
+  description_footer: This page is apart of the <a class='text-grey-darkest'
+    title='Homepage' href='https://rustyrhuskey.tk'>http://rustyrhuskey.tk</a>
     eco-system.
