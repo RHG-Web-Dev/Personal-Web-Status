@@ -12,6 +12,7 @@ resolved_on: ""
 affected:
   - Little R
   - Transistor FM
+  - RHG Bot
 twitterFeed: ""
 enableComments: false
 ---
