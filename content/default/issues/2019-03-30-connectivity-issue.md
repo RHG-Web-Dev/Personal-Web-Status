@@ -16,5 +16,5 @@ twitterFeed: ""
 enableComments: false
 ---
 Both bots have received major down time due to the host dropping container availability.\
-**Issue identified:** Our hosting company has informed us of a failure in the host containers. They are working on it.  {{< track "2020-05-30 14:023:00" >}} \
-**Monitoring:** The host in question has been notified. We are monitoring the hosts for the next few weeks to be sure all is OK. {{< track "2020-05-30 18:052:00" >}}
+**Issue identified:** Our hosting company has informed us of a failure in the host containers. They are working on it.  {{< track "2020-05-30 14:23:00" >}} \
+**Monitoring:** The host in question has been notified. We are monitoring the hosts for the next few weeks to be sure all is OK. {{< track "2020-05-30 18:52:00" >}}
