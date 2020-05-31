@@ -5,13 +5,18 @@ params:
   shortDateFormat: 15:04 — Jan 2
   meta_description: This status page provides updated information about our
     systems normal operation, incidents that may happen and their resolution.
+  groups:
+    - Robots
+    - API
   systems:
-    - name: API
+    - name: API Endpoints
       description: The main API for all internal things.
       link: ""
-    - name: Management
+      group: API
+    - name: API Management
       description: RHG Management Framework
       link: ""
+      group: API
     - name: Little R
       description: Little R is made to be an awesome discord bot for easy setup.
         Invite today to enjoy a little buddy next to your server!
@@ -22,6 +27,9 @@ params:
         station with tons of jingles and with a variety of music, being
         broadcasted across multiple servers at rapid speeds.
       link: http://radio.rustyrhuskey.tk/
+      group: Robots
+    - name: RHG Bot
+      description: RHG is a public Discord bot, made to customize your discord w/ Custom prefixs, welcome/goodbye messages, and more!
       group: Robots
   dateFormat: "January 2, 2006 at 3:04 PM "
   disqusShortname: null
@@ -35,7 +43,5 @@ params:
   copyrightHolder: RHG
   eventsPerPage: 25
   iconType: image/png
-  groups:
-    - Robots
   icon: /images/logo.png
   description_footer: RHG Status Page
