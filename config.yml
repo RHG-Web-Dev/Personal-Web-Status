@@ -25,7 +25,7 @@ params:
   dateFormat: January 2, 2006 at 3:04 PM
   disqusShortname: null
   timezoneString: " UTC"
-  logo: /images/logo.svg
+  logo: /images/logo.png
   description_header: Information about RHG's systems operations.<br />Follow us
     <a class='text-grey-darkest' title='Visit my page on Twitter'
     href='https://www.twitter.com/RHGRDev'>on Twitter</a> or subscribe to the <a
