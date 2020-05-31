@@ -75,7 +75,7 @@
   translation: Back To Event List
 
 - id: notFound
-  translation: 404 Error\: Page Not Found
+  translation: 404 Error - Page Not Found
 - id: notFoundText
   translation: You can always look a bit closer, or just return to the main page.
 
