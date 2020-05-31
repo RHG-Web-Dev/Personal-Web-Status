@@ -1,13 +1,10 @@
-title: RHG Systems Status Page
+title: RHG Systems Status
 baseURL: https://status.rustyrhuskey.tk
 languageCode: en
 params:
   shortDateFormat: 15:04 — Jan 2
   meta_description: This status page provides updated information about our
     systems normal operation, incidents that may happen and their resolution.
-  groups:
-    - Robots
-    - API
   systems:
     - name: API Endpoints
       description: The main API for all internal things.
@@ -29,7 +26,8 @@ params:
       link: http://radio.rustyrhuskey.tk/
       group: Robots
     - name: RHG Bot
-      description: RHG is a public Discord bot, made to customize your discord w/ Custom prefixs, welcome/goodbye messages, and more!
+      description: RHG is a public Discord bot, made to customize your discord w/
+        Custom prefixs, welcome/goodbye messages, and more!
       group: Robots
   dateFormat: "January 2, 2006 at 3:04 PM "
   disqusShortname: null
@@ -43,5 +41,10 @@ params:
   copyrightHolder: RHG
   eventsPerPage: 25
   iconType: image/png
+  groups:
+    - Robots
+    - API
   icon: /images/logo.png
-  description_footer: RHG Status Page
+  description_footer: <a class='text-grey-darkest' title='Homepage'This page is
+    apart of the href='https://rustyrhuskey.tk'>http://rustyrhuskey.tk</a>
+    eco-system.
