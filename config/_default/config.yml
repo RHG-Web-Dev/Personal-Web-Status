@@ -15,7 +15,7 @@ defaultContentLanguageInSubdir: false
 contentDir: "content/default"
 
 # Theme to use
-theme: clearstatustheme
+theme: clearstatus
 assetsDir: themes/clearstatustheme/assets
 
 ############################################################
