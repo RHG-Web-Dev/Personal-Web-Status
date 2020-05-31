@@ -5,7 +5,7 @@ title: Discord Bot Container Failure
 date: 2020-05-29T10:34:06.818Z
 status: in_progress
 pinned: null
-current_severity: monitoring
+current_severity: disrupted
 max_severity: down
 duration: null
 resolved_on: ""
