@@ -16,10 +16,10 @@ bordersColor: "border-transparent"
 headerBackground: "bg-grey-darkest"
 headerColor: "text-grey-lighter"
 footerBackground: "bg-grey-darkest"
-footerColor: "text-grey-lightest"
+footerColor: "text-grey-lighter"
 componentsBackground: "bg-grey-darker"
 componentsColor: "text-grey-darker"
-componentsBorders: "bg-grey-darker"
+componentsBorders: "bg-transparent"
 refreshColor: "text-grey-dark"
 paginationLinksColor: "text-grey-darkest"
 disabledPaginationLinksColor: "text-grey"
@@ -55,8 +55,8 @@ pastBodyColor: "text-grey-darkest"
 pastBodyTitleColor: "text-white"
 
 # Affected components
-affectedBackground: "bg-grey-lighter"
-affectedColor: "text-grey-darkest"
+affectedBackground: "bg-grey-darkest"
+affectedColor: "text-grey-lighter"
 
 # NetlifyCMS support
 enableNetlifyCMSSupport: true
