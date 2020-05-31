@@ -2,18 +2,18 @@
 draft: false
 section: issue
 title: Connectivity failure
-date: 2019-03-30T20:03:00.000Z
-status: resolved
-pinned: top
-current_severity: ok
+date: 2020-05-31T10:29:10.131Z
+status: in_progress
+pinned: belowheader
+current_severity: disrupted
 max_severity: down
 duration: null
-resolved_on: 2019-03-30T20:45:19.000Z
+resolved_on: ""
 affected:
   - Site
   - Helpdesk
 twitterFeed: null
-enableComments: true
+enableComments: false
 ---
 
 Both our website and customer support area cannot be reached at the moment. We are investigating the matter.
