@@ -27,8 +27,8 @@ params:
   disqusShortname: null
   timezoneString: America/New_York
   logo: /images/logo.png
-  description_header: Information about RHG's systems operations.<br />Follow us
-    <a class='text-grey-darkest' title='Visit my page on Twitter'
+  description_header: Information about RHG's systems operations.<br />Follow me
+    <a class='text-grey-darkest' title='Visit my Twitter'
     href='https://www.twitter.com/RHGRDev'>on Twitter</a> or subscribe to the <a
     class='text-grey-darkest' href='%s' >RSS</a><br /> feed to be alerted of new
     events.
