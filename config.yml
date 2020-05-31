@@ -1,4 +1,5 @@
 title: RHG Systems Status Page
+baseURL: https://status.rustyrhuskey.tk
 languageCode: en
 params:
   shortDateFormat: 15:04 — Jan 2
