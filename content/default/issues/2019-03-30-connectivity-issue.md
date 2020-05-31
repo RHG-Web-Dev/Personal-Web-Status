@@ -10,9 +10,9 @@ max_severity: down
 duration: null
 resolved_on: ""
 affected:
-  - Site
-  - Helpdesk
-twitterFeed: null
+  - Little R
+  - Transistor FM
+twitterFeed: ""
 enableComments: false
 ---
 
