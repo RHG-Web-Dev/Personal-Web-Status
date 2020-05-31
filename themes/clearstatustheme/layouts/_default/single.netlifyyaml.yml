@@ -10,7 +10,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 ## Content definition
 collections:
   - name: "issue"
-    label: "Events"
+    label: "Issues"
     folder: "content/default/issues"
     create: true
     slug: "{{ .Site.Params.NetlifySlug }}"
@@ -76,7 +76,7 @@ collections:
         widget: "select"
         multiple: true
         options:
-{{ range .Site.Params.Systems }}          - { label: "{{ .name }}", value: "{{ .name }}" }
+{{ range .Site.Params.Systems }}          - { label: "- {{ .name }}", value: "{{ .name }}" }
 {{ end }}
       - label: "Twitter feed"
         name: "twitterFeed"
@@ -97,15 +97,15 @@ collections:
         default: ""
 
 
-  - name: "settings"
-    label: "Settings"
+  - name: "config"
+    label: "Configuration"
     description: "General configuration for your status page. Saving these settings will overwrite those in your git repository."
     delete: false
     editor:
       preview: false
     files:
       - name: "main"
-        label: "Status page configuration"
+        label: "Status Page Configuration"
         file: "config.yml"
         fields:
           - label: 'Site title'
@@ -150,7 +150,7 @@ collections:
                     multiple: false
                     required: false
 {{ with $groups }}                    options:
-{{ range $groups }}                      - { label: "{{ . }}", value: "{{ . }}" }
+{{ range $groups }}                      - { label: "- {{ . }}", value: "{{ . }}" }
 {{ end }}{{ end }}                  - label: "Description"
                     name: "description"
                     widget: string
