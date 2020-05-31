@@ -15,7 +15,7 @@
   translation: Click to refresh page now
 
 - id: rss
-  translation: Subscribe via RSS
+  translation: Subscribe Via RSS
 
 # Summary status message
 - id: scheduled
@@ -70,9 +70,9 @@
 - id: goBack
   translation: Go back to
 - id: backToTop
-  translation: Back to top
+  translation: Back To Top
 - id: backToList
-  translation: Back to event list
+  translation: Back To Event List
 
 - id: notFound
   translation: We could not find this page.
