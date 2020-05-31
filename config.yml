@@ -25,7 +25,7 @@ params:
   dateFormat: January 2, 2006 at 3:04 PM
   disqusShortname: null
   timezoneString: " UTC"
-  logo: /images/clearstatus.svg
+  logo: /images/logo.svg
   description_header: Information about RHG's systems operations.<br />Follow us
     <a class='text-grey-darkest' title='Visit my page on Twitter'
     href='https://www.twitter.com/RHGRDev'>on Twitter</a> or subscribe to the <a
@@ -36,5 +36,5 @@ params:
   iconType: image/png
   groups:
     - Robots
-  icon: /images/clearstatus.png
+  icon: /images/logo.png
   description_footer: RHG Status Page
