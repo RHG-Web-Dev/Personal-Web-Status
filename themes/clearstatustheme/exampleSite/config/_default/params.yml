@@ -9,7 +9,7 @@ fullCSSDistFile: "css/dist/styles.css"
 postCSSConfigFolder: "themes/clearstatustheme"
 
 # Colors
-bodyBackground: "bg-grey-dark"
+bodyBackground: "bg-black"
 bodyColor: "text-grey-lighter"
 visibleBordersColor: "border-grey-dark"
 bordersColor: "border-transparent"
