@@ -4,7 +4,7 @@ section: issue
 title: Discord Bot Connectivity Failure
 date: 2020-05-29T10:34:06.818Z
 status: in_progress
-pinned: belowheader
+pinned: null
 current_severity: monitoring
 max_severity: down
 duration: null
