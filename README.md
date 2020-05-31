@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.weeblrpress.net/clearstatus/assets/images/clearstatus-200.svg" alt="ClearStatus Logo"></p>
+<p align="center"><img src="https://cdn.weeblrpress.net/clearstatus/assets/images/logo.png" alt="ClearStatus Logo"></p>
 
 <p align="center"><a title="ClearStatus intro video link" href="https://www.youtube.com/watch?v=wFF2OBPfalQ"><img src="https://img.youtube.com/vi/wFF2OBPfalQ/0.jpg" alt="ClearStatus status page intro video"></a></p>
 <p align="center">Click image to view intro video</p>
