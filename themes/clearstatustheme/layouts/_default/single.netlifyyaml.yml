@@ -39,7 +39,7 @@ collections:
           - { label: "Just below the header", value: "belowheader" }
       - label: "Current severity"
         name: "current_severity"
-        hint: "How severe is the event for the affected systme right now."
+        hint: "How severe is the event for the affected system right now."
         widget: "select"
         default: "down"
         options:
