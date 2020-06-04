@@ -29,6 +29,11 @@ params:
       description: RHG is a public Discord bot, made to customize your discord w/
         Custom prefixs, welcome/goodbye messages, and more!
       group: Robots
+    - name: Heaven Bot
+      group: Robots
+      link: https://discord.gg/xn72Gq9
+      description: Heaven Bot is a private discord bot made to manage an special
+        server from external services.
   dateFormat: "January 2, 2006 at 3:04 PM "
   disqusShortname: null
   timezoneString: America/New_York
