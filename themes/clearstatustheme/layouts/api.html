@@ -1,0 +1,17 @@
+{
+	channel: {
+		title: {{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }},
+		link: {{ .Permalink }},
+		description: {{ T "incidentHistory" }},
+    {{ range $incidents }}
+      item: 
+        title: {{ if eq .Params.status "resolved" }}[{{ T "resolved" }}] {{ end }}{{ .Title }}
+		status: {{ .Params.status }}
+        link: {{ .Permalink }}
+        pubDate: {{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}
+        affected: {{ .Params.affected }}
+        description: {{ .Content | txt }}
+      }
+    {{ end }}
+  }
+}
