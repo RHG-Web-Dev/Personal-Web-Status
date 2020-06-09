@@ -1,10 +1,13 @@
 {
-	channel: {
+	content: {
 		title: {{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }},
 		link: {{ .Permalink }},
-		description: {{ T "incidentHistory" }},
-    {{ range $incidents }}
-      item: 
+		description: {{ T "incidentHistory" }}
+	},
+	{{ $incident := where .Site.RegularPages "Params.section" "issue" }}
+	incidents: {
+    {{ range $incident }}
+      { 
         title: {{ if eq .Params.status "resolved" }}[{{ T "resolved" }}] {{ end }}{{ .Title }}
 		status: {{ .Params.status }}
         link: {{ .Permalink }}
@@ -13,5 +16,6 @@
         description: {{ .Content | txt }}
       }
     {{ end }}
+	}
   }
 }
