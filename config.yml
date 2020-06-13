@@ -35,7 +35,7 @@ params:
       description: Heaven Bot is a private discord bot made to manage an special
         server from external services.
   dateFormat: "January 2, 2006 at 3:04 PM "
-  disqusShortname: null
+  disqusShortname: 1RHG
   timezoneString: America/New_York
   logo: /images/logo.png
   description_header: Information about RHG's systems operations.<br />Follow me
