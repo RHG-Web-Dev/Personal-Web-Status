@@ -5,7 +5,7 @@ date: 2020-07-01T04:00:00.000Z
 status: scheduled
 pinned: ""
 current_severity: ok
-max_severity: ok
+max_severity: maintenance
 duration: 5mn
 resolved_on: ""
 affected:
