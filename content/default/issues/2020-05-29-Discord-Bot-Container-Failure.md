@@ -10,7 +10,6 @@ max_severity: down
 duration: null
 resolved_on: 2020-06-08T04:48:10.484Z
 affected:
-  - Little R
   - Transistor FM
 twitterFeed: ""
 enableComments: false
