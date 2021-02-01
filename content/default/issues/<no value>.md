@@ -1,12 +1,12 @@
 ---
 section: issue
 title: Monthly Bot Maintenance
-date: 2020-10-01T04:00:00.000Z
+date: 2021-02-01T05:00:00.000Z
 status: scheduled
 pinned: ""
 current_severity: ok
 max_severity: maintenance
-duration: 5mn
+duration: 15mn
 resolved_on: ""
 affected:
   - Heaven Bot
