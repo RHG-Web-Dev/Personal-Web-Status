@@ -9,7 +9,6 @@ max_severity: maintenance
 duration: 15mn
 resolved_on: ""
 affected:
-  - RHG Bot
   - Transistor FM
   - Little R
 twitterFeed: ""
