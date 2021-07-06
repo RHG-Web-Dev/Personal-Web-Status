@@ -1,7 +1,7 @@
 ---
 section: issue
 title: Monthly Bot Maintenance
-date: 2021-07-01T17:45:16.637Z
+date: 2021-08-01T17:45:16.637Z
 status: scheduled
 pinned: ""
 current_severity: ok
