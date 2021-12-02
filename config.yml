@@ -10,15 +10,12 @@ params:
       description: The main API for all internal things.
       link: ""
       group: API
-    - name: API Management
-      description: RHG Management Framework
-      link: ""
-      group: API
     - name: Little R
-      description: Little R is made to be an awesome discord bot for easy setup.
-        Invite today to enjoy a little buddy next to your server!
+      description: ""
       link: https://littler.tk
       group: Robots
+    - name: Little R API
+      group: API
     - name: Transistor FM
       description: Transistor FM is a public Discord music bot, made to mimic a radio
         station with tons of jingles and with a variety of music, being
@@ -26,7 +23,7 @@ params:
       link: http://radio.rustyrhuskey.tk/
       group: Robots
   dateFormat: "January 2, 2006 at 3:04 PM "
-  disqusShortname: 1rhg
+  disqusShortname: ""
   timezoneString: America/New_York
   logo: /images/logo.png
   description_header: Information about RHG's systems operations.<br />Follow me
