@@ -1,7 +1,7 @@
 ---
 section: issue
-title: Monthly Bot Maintenance
-date: 2021-11-01T04:00:09.097Z
+title: Monthly Maintenance
+date: 2022-01-01T05:00:09.097Z
 status: scheduled
 pinned: ""
 current_severity: ok
@@ -13,4 +13,4 @@ affected:
 twitterFeed: ""
 enableComments: false
 ---
-All the bots go down for maintenance and security repairs on the 1st of every month. This usually last a few minutes up to 4 hours or longer.
+All services go down for maintenance and security repairs on the 1st of every month. This usually lasts a few minutes or longer.
