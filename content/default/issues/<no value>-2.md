@@ -4,7 +4,7 @@ title: Transistor FM Discontinued
 date: 2021-09-15T23:47:17.952Z
 status: resolved
 pinned: null
-current_severity: down
+current_severity: maintenance
 max_severity: down
 duration: ""
 resolved_on: ""
