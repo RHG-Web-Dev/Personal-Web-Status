@@ -22,6 +22,8 @@ params:
         broadcasted across multiple servers at rapid speeds.
       link: http://radio.rustyrhuskey.tk/
       group: Robots
+    - name: Misc. Bots
+      description: Other bots that may be for utilities
   dateFormat: "January 2, 2006 at 3:04 PM "
   disqusShortname: ""
   timezoneString: America/New_York
