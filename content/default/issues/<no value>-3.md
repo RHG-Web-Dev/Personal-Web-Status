@@ -10,6 +10,7 @@ duration: Unknown
 resolved_on: 2022-11-09T01:08:47.619Z
 affected:
   - Little R
+  - Misc.
 twitterFeed: ""
 enableComments: false
 ---
