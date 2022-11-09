@@ -1,7 +1,7 @@
 ---
 draft: false
 section: issue
-title: Discord Bot Online Dependency
+title: Uptime Guidelines >100%
 date: 2020-06-15T22:26:55.131Z
 status: resolved
 pinned: null
