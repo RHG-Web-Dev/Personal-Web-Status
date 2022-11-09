@@ -1,6 +1,6 @@
 ---
 section: issue
-title: VPS Services
+title: VPS Service - Swap
 date: 2022-11-28T17:00:00.000Z
 status: scheduled
 pinned: top
