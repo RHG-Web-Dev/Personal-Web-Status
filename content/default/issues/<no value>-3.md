@@ -3,7 +3,7 @@ section: issue
 title: VPS Service - Swap
 date: 2022-11-28T17:00:00.000Z
 status: scheduled
-pinned: top
+pinned: belowheader
 current_severity: maintenance
 max_severity: maintenance
 duration: Unknown
